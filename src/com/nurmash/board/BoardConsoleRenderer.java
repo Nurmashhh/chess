@@ -37,8 +37,9 @@ public class BoardConsoleRenderer {
             }
 
             line += ANSI_RESET;
-            System.out.println(line);
+            System.out.println(line + " " + String.valueOf(rank));
         }
+        System.out.println(" A  B  C  D  E  F  G  H");
     }
 
     public void render(Board board) {
